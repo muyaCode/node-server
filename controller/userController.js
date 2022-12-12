@@ -4,7 +4,7 @@ const userSchema = require('../validator/userValidator');
 const {getUser, createUser} = require('../service/userService');
 const {SuccessModel, ErrorModel} = require('../model/resultModel');
 const {userDataFail, userExistsFail, userRegisterFail, userLoginFail} = require('../config/errorConst');
-const generatePwd = require('../utils/crypto');
+const generatePwd = require('../utils/crypto'); // md5密码加密
 
 /**
  * 校验用户数据是否正确

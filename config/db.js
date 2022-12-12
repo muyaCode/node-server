@@ -25,6 +25,7 @@ if(process.env.NODE_ENV === 'dev'){
             }
         }
     }
+    // redis数据库连接
     REDIS_CONFIG ={
         host     : '127.0.0.1',
         port     : '6379',
@@ -53,6 +54,7 @@ if(process.env.NODE_ENV === 'dev'){
             }
         }
     }
+    // redis数据库连接
     REDIS_CONFIG ={
         host     : '127.0.0.1',
         port     : '6379',

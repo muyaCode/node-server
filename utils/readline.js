@@ -1,3 +1,4 @@
+// 读取日志来获取网站访问的次数
 const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
